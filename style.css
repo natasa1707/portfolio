@@ -1,4 +1,86 @@
 body {
-    background: rgb(244, 247, 242);
-    color: rgba(102, 27, 121, 0.973);
+    background: #F1F0E2;
+    color: rgba(232, 99, 78, 1);
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header, footer {
+    height: 50px;
+    background: rgba(232, 99, 78, 1);
+    color: #EBEDCB;
+    margin: 0;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+a {
+    text-decoration: none;
+}
+
+iframe {
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+#frontend {
+    width: 100%;
+}
+
+a:hover {
+    color: yellow;
+}
+
+a:visited {
+    color: green
+}
+
+.krug {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.row-1 {
+    background: #F9B248;
+    padding: 2% 4% 2% 4%;
+}
+
+.box-3 {
+    font-size: 1.5em;
+    padding-left: 4%;
+    padding-right: 4%;
+    flex: 1;
+}
+
+.box-4 {
+    padding: 2% 4% 2% 4%;
+    flex: 1;
+}
+
+.cvet {
+    display: block;
+    width: 40px;
+    height: 40px;
+}
+
+@media (min-width: 800px) {
+    .row-1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .row-2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .box-1 {
+        flex: 2;
+    }
+    .box-2 {
+        flex: 1;
+    }
 }
